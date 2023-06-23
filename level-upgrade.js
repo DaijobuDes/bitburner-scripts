@@ -30,14 +30,14 @@ export async function main(ns) {
 
   }
 
-  function checkArray(array) {
-    for (var i = 0; i < array.length; i++) {
+function checkArray(array) {
+  for (var i = 0; i < array.length; i++) {
 
-      if (array[i] === false) {
-        return false;
-      }
-
+    if (array[i] === false) {
+      return false;
     }
 
-    return true;
   }
+
+  return true;
+}
